@@ -7,7 +7,6 @@ class Artist extends Component {
             artist: { ...props }
         };
     }
-
     render() {
         console.log(this.props.artist[0]);
         return (

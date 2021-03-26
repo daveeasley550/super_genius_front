@@ -88,13 +88,12 @@ export default class Form extends Component {
                                     <label for="url">URL:</label>
                                 </div>
                                 <input className="input6" name="url" placeholder={this.props.artistToEdit.url} />
-
-                                <div className="button">
+                                        <div className="button">
                                     <button className="update-button">Update Artist</button>
                                 </div>
                             </div>
                         </div>
-                }
+                        }
             </form>
         );
     }

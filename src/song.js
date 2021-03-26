@@ -7,7 +7,6 @@ class song extends Component {
             song: { ...props }
         };
     }
-
     render() {
         console.log(this.props.song[0]);
         return (
