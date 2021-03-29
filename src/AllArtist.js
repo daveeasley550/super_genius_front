@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './App.css';
 import React, { Component } from "react"
-class App extends Component {
+class AllArtist extends Component {
     constructor() {
         super()
         this.state = {
@@ -135,7 +135,7 @@ class App extends Component {
         );
     }
 }
-export default App;
+export default AllArtist;
 
 
 
