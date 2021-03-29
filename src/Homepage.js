@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Artist from './Artist.js'
-import Song from './Song.js'
+import Artist from './artist.js'
+import Song from './song.js'
 
 export default class Homepage extends Component {
     constructor(props) {
