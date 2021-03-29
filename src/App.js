@@ -4,7 +4,7 @@ import Navigation from './Navigation.js';
 import AllSongs from './AllSongs.js'
 import AllArtist from './AllArtist.js'
 import Homepage from './Homepage.js'
-import Form from './Form'
+import Form from './form.js'
 import { Switch, Route } from 'react-router-dom';
 
 class App extends Component {
