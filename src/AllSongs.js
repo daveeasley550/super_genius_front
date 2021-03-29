@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './App.css';
 import React, { Component } from "react"
-import song from './Song';
+import song from './song';
 class AllSongs extends Component {
     constructor() {
         super()
