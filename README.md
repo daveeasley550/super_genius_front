@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Super Genius Music API
+## Project 8 - By LEHM(on)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### Used: 
+* express
+* javascript
+* mongoose
+* heroku
+* mongo atlas
 
-## Available Scripts
+# FRONTEND CRUD
+This project was to create a full functioning CRUD frontend app that pulls data from the backend database.
 
-In the project directory, you can run:
+# HOME
+ The homepage will have two links for you to choose. "All Songs" or "All Artist". 
 
-### `npm start`
+ # AllSongs
+ Within AllSongs you will be able to demonstrate all 4 CRUD functionalities. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ # AllSongs Create "C"RUD
+ In AllSongs you can Create a Song by entering in a name in the text placeholder box and by entering a playcount number in the enter playcount placeholder box. After you do that you press Create Song and scroll down to the end of the AllSongs list and your song will be at the bottom.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ # AllSongs Read C"R"UD
+ In AllSongs there is a list of song names that are clickable under the list of AllSongs. These songs were pulled from the backend database.
 
-### `npm test`
+ # AllSongs Update CR"U"D
+ The update functionality in AllSongs is implemented when you click a song and under Song Info you'll have the ability to edit the song's name or playcount or both. Once you've implemented the changes you will need to press the submit button and your updates will be implemented.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ # AllSongs Delete CRU"D"
+ The delete functionality in AllSongs is implemented when you click a song and under Song Info you'll have the ability to delete the song. Once deleted it's gone.
 
-### `npm run build`
+ # AllArtist 
+ Within AllArtist you will be able to demonstrate all 4 CRUD functionalities. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ # AllArtist Create "C"RUD
+ In AllArist you can Create an Artist by entering in a name in the "enter name" placeholder box and by entering a url in the "enter url" placeholder and by entering a playcount number in the "enter playcount" placeholder box. After you do that you press Create Artist and scroll down to the end of the AllArtist list and your artist will be at the bottom.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# AllArtist Read C"R"UD
+ In AllArtist there is a list of artist names that are clickable under the list of AllArtist. These artist were pulled from the backend database.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  # AllArtist Update CR"U"D
+ The update functionality in AllArtist is implemented when you click a artist and under Artist Info you'll have the ability to edit the artist's name or url or playcount or all of those. Once you've implemented the changes you will need to press the "EDIT artist" button and your updates will be implemented.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  # AllArtist Delete CRU"D"
+ The delete functionality in AllArtist is implemented when you click an artist and under Artist Info you'll have the ability to delete the artist. Once deleted it's gone.
