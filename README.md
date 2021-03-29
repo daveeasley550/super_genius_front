@@ -1,4 +1,4 @@
-# Super Genius Music API
+# Super Genius Music 
 ## Project 8 - By LEHM(on)
 
 ##### Used: 
