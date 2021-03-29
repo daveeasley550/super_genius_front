@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './App.css';
 import React, { Component } from "react"
 import song from './Song';
-class App extends Component {
+class AllSongs extends Component {
     constructor() {
         super()
         this.state = {
@@ -135,4 +135,4 @@ class App extends Component {
         );
     }
 }
-export default App;
+export default AllSongs;
