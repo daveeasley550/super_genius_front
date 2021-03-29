@@ -107,7 +107,7 @@ class App extends Component {
                         <h2>Song Name: {name}</h2>
                         <h2>Playcount: {playcount}</h2>
                         <button onClick={() => this.deleteSong(_id)}>DELETE</button>
-                        <button onClick={() => this.getEditSong(this.state.currentSelected)}>EDIT</button>
+                        <button onClick={() => this.getEditSong(this.state.currentSelected)}>Edit</button>
                     </div>}
                 </div>
 
@@ -117,8 +117,8 @@ class App extends Component {
                     {this.state.SongToEdit._id &&
                         <form onSubmit={this.updateSong}>
                             <input type="text" name="name" placeholder="enter name" value={this.state.SongToEdit.name} onChange={this.handleEditChange} />
-                            <input type="text" name="url" placeholder="enter playcount" value={this.state.SongToEdit.playcount} onChange={this.handleEditChange} />
-                            <button type="submit">Edit</button>
+                            <input type="text" name="playcount" placeholder="enter playcount" value={this.state.SongToEdit.playcount} onChange={this.handleEditChange} />
+                            <button type="submit">Submit</button>
                         </form>}
                 </div>
 
